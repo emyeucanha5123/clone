@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A whole new Calender</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+	<script defer src="app.js"></script>
+</head>
+<body>
+	<div class="container">
+			<h1><button class="btn" id="prev"><i class="fas fa-angle-double-left"></i></button>
+<span class="year">2021</span> Mood Calendar <button class="btn" id="next"><i class="fas fa-angle-double-right"></i></button></h1>
+		<h3>Click the next and the prev button to change the year</h3>
+		<h4>~ color each day depending on what your mood was / is ~</h4>
+		<p>Select mood:</p>
+		<div class="moods_container">
+			<button class="mood mood_1" id="mood_1">
+				<i class="far fa-laugh"></i>
+			</button>
+			<button class="mood mood_2" id="mood_2">
+				<i class="far fa-laugh"></i>
+			</button>
+			<button class="mood mood_3" id="mood_3">
+				<i class="far fa-laugh"></i>
+			</button>
+			<button class="mood mood_4" id="mood_4">
+				<i class="far fa-laugh"></i>
+			</button>
+			<button class="mood mood_5" id="mood_5">
+				<i class="far fa-laugh"></i>
+			</button>
+
+		</div>
+		<p>then click on the circles below</p>
+
+		<button id="randomize" class="action_btn randomize">
+			<i class="fas fa-random"></i>
+		</button>
+		<button id="clear" class="action_btn clear">
+			<i class="fas fa-sync"></i>
+		</button>
+
+
+
+		<div id="calendar" class="calendar">
+
+		</div>
+
+	</div>
+</body>
+</html>
